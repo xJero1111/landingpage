@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Artisan's Brew</title>
+    
+    <!-- Este bloque de código se obtiene de google fonts ( fonts.google.com), seleccionar la fuente, luego GET, Get embed code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- vículo al archivo CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header class="site-header"> <!-- encabezado del sitio, espacio para el logo, menú de navegación, barras de busqueda -->
+        <div class="container"> <!-- div es un contenedor generico, usado aqui para alinear el contenido -->
+            <p class="logo">The Artisan's Brew</p>
+            <nav class="main-nav"> <!-- barra de navegación principal, contiene enlaces a las secciones del sitio -->
+                <ul>
+                    <li><a href="#story">Nuestra Historia</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main> <!-- sección principal del sitio, contiene el contenido principal -->
+        <section id="hero">
+        <!--La etiqueta <section> se utiliza para agrupar contenido que comparte un tema o relación común. 
+        es como un capítulo de un libro o una sección específica de un periódico. Su propósito es dividir el documento 
+        en bloques temáticos distintos.
+        regla de oro: una <section> casi siempre debe tener un encabezado (<h1> a <h6>) que describa su contenido. 
+        sino usar un <div> en su lugar. -->
+                <div class="hero-text">
+                <h1>Café de especialidad, tostado con pasión.</h1>
+                <p>Descubre el arte en cada taza.</p>
+                <a href="#menu" class="btn">Ver Nuestro Menú</a> <!-- botón de menú --> 
+            </div>
+        </section>
+
+        <section id="story">
+            <div class="container">
+                <h2>Nuestra Historia</h2>
+                <p>En The Artisan's Brew, creemos que el café es más que una bebida; es una experiencia. Desde 2024, nos dedicamos a seleccionar los mejores granos de origen único y a tostarlos artesanalmente para resaltar sus sabores más exquisitos.</p>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="container">
+                <h2>Algunos de Nuestros Favoritos</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="https://picsum.photos/seed/espresso/400" alt="Taza de Espresso">
+                        <h3>Espresso Clásico</h3>
+                        <p>Intenso y aromático, la base de todo.</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://picsum.photos/seed/latte/400" alt="Taza de Latte">
+                        <h3>Latte Artesanal</h3>
+                        <p>Cremoso y suave, con leche vaporizada a la perfección.</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://picsum.photos/seed/chemex/400" alt="Café de filtro">
+                        <h3>Café de Filtro</h3>
+                        <p>Un método que revela las notas más sutiles del grano.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Visítanos</h2>
+                <p>Calle Ficticia 123, Ciudad Creativa</p>
+                <p>Lunes a Sábado: 8:00 AM - 8:00 PM</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer"> /* pie de página del sitio, contiene información de derechos de autor y enlaces adicionales */
+        <p>&copy; 2026 The Artisan's Brew. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
