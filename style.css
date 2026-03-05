@@ -98,3 +98,7 @@ a {
     border-radius: 20px;
     text-align: center;
 }
+
+.slimes-item img{
+    width: 15rem;
+}
