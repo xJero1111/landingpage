@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: Quicksand, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     line-height: 1.7;
     color: #444;
@@ -14,7 +14,7 @@ body{
 }
 
 h1,h2, h3, .logo{
-    font-family: Fredoka, serif;
+    font-family: 'Fredoka', serif;
     font-weight: 700;
     background-image: linear-gradient(135deg, #f74e9c 0%,#f85751 100%);
     background-clip: text;
