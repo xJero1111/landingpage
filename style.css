@@ -102,3 +102,7 @@ a {
 .slimes-item img{
     width: 15rem;
 }
+
+html {
+    scroll-behavior: smooth;
+}
