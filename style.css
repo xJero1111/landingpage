@@ -63,7 +63,7 @@ a {
 }
 
 #hero {
-    background-image: linear-gradient(rgba(0,0,0.5), rgba(0,0,0,0.5)), url('https://picsum.photos/seed/coffe-shop/1600/900');
+    background-image: linear-gradient(rgb(20, 6, 115,0.85), rgba(0,0,0,0)), url(images/banner.jpg);
     background-size: cover;
     background-position: center;
     color: #ffffff;
