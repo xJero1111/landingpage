@@ -90,6 +90,9 @@ a {
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 4rem;
+}
+
+.slimes-item {
     background-color: white;
     padding: 20px;
     border-radius: 20px;
