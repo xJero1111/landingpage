@@ -10,18 +10,20 @@ body{
     font-size: 16px;
     line-height: 1.7;
     color: #444;
-    background-color: #f9f7f6;
+    background: linear-gradient(to bottom, #effeff 0%,#c0d1d3 100%);
 }
 
 h1,h2, h3, .logo{
     font-family: Fredoka, serif;
     font-weight: 700;
-    color: #2a2a3a;
+    background-image: linear-gradient(135deg, #f74e9c 0%,#f85751 100%);
+    background-clip: text;
+    color: transparent;
 }
 
 a {
     text-decoration: none;
-    color: #884513;
+    color: #7e85e7;
 }
 
 .container{
