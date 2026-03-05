@@ -84,3 +84,14 @@ a {
     margin-bottom: 2rem;    
 }
 
+.slimes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
